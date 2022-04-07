@@ -8,14 +8,6 @@
         "env": []
     },
     {
-        "id": "277e116a948ebdcb",
-        "type": "tab",
-        "label": "Flow 1",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "a3b596b8ad5084b6",
         "type": "inject",
         "z": "cb48886cfc3d8181",
@@ -70,37 +62,6 @@
         "links": [],
         "x": 445,
         "y": 120,
-        "wires": []
-    },
-    {
-        "id": "f96db1f58337ead6",
-        "type": "link in",
-        "z": "277e116a948ebdcb",
-        "name": "",
-        "links": [],
-        "x": 275,
-        "y": 220,
-        "wires": [
-            [
-                "9f4f20bc36b283e2"
-            ]
-        ]
-    },
-    {
-        "id": "9f4f20bc36b283e2",
-        "type": "debug",
-        "z": "277e116a948ebdcb",
-        "name": "trrr",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 450,
-        "y": 220,
         "wires": []
     }
 ]
